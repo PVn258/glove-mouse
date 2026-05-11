@@ -29,6 +29,10 @@ _autosave-*
 # Claude 内部记忆（不需要提交）
 .claude/
 
+# 硬件设计文件（单独管理）
+hardware/
+docs/
+
 # OS
 .DS_Store
 Thumbs.db
