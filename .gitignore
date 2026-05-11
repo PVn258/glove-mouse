@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Generated output (可再生成，不必追踪)
+*.zip
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# KiCad 临时/缓存文件
+*.kicad_prl
+*.kicad_pro
+fp-info-cache
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Claude 内部记忆（不需要提交）
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
