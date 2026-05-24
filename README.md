@@ -62,11 +62,36 @@ FSR Right DO   → GPIO 3     (right click)
 
 ---
 
+## Schematic & PCB Design
+
+The circuit was drawn in **EasyEDA Pro** and exported for JLCPCB fabrication.
+
+| File | Description |
+|------|-------------|
+| `hardware/ProPrj_Seeed Studio XIAO ESP32C6_2026-05-12_10-11-10_2026-05-13.epro2` | EasyEDA Pro project (editable source) |
+| `hardware/SCH_Schematic1_2026-05-14.pdf` | Schematic PDF (quick reference) |
+
+**PCB specs for JLCPCB ordering:**
+
+| Parameter | Value |
+|-----------|-------|
+| Layers | 2 |
+| Board size | 50 × 40 mm |
+| Min trace / space | 0.2 mm / 0.2 mm |
+| Min via drill | 0.4 mm |
+| Surface finish | HASL (lead-free) |
+
+---
+
 ## Repository Structure
 
 ```
 glove_mouse/
 └── glove_mouse.ino          Main BLE HID firmware
+
+hardware/
+├── *.epro2                  EasyEDA Pro schematic & PCB project
+└── *.pdf                    Exported schematic PDF
 
 tests/
 ├── all_sensors_test/        All sensors combined diagnostic
